@@ -1,14 +1,15 @@
 We used NanoStat for data QC and statistics gothering and NanoPlot for visualisation. These tools are from [nanopack tools](https://github.com/wdecoster/nanopack)
 
-NanoStat
-'
+### NanoStat
+```
 READS=[filename of ONT data .fastq]
 OUTDIR=[path to output]
 
 NanoStat --fastq $READS --outdir $OUTDIR
-'
+```
 Nanostat outputs main statistics for the read data. Example from our library:
-'
+
+```
 General summary:        
 Mean read length:                 8,509.6
 Mean read quality:                   10.1
@@ -35,5 +36,15 @@ Top 5 longest reads and their mean basecall quality score
 3:	291487 (9.9)
 4:	273986 (7.4)
 5:	262854 (7.6)
-'
+```
+### NanoPlot
+
+```
+READS=[filename of ONT data .fastq]
+OUTDIR=[path to output]
+
+NanoPlot --raw -o $OUTDIR -f png,tiff --fastq $READS 
+```
+
+Example of output plots:
 
