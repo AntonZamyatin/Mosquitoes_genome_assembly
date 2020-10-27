@@ -1,4 +1,4 @@
-We used NanoStat for data QC and statistics gothering and NanoPlot for visualisation. These tools are from [nanopack tools](https://github.com/wdecoster/nanopack)
+We used NanoStat for data QC and statistics gathering and NanoPlot for visualisation. These tools are from [nanopack tools](https://github.com/wdecoster/nanopack)
 
 ### NanoStat
 ```
