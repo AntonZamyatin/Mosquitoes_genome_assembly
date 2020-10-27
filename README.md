@@ -1,5 +1,6 @@
 # Mosquitoes_genome_assembly
 Scripts used in mosquitoes genome assembly and validation processes.
+Full description of our work is in paper: ["Chromosome-level genome assemblies of the malaria vectors Anopheles coluzzii and Anopheles arabiensis"](https://doi.org/10.1101/2020.09.29.318477)
 ### Assembly pipeline
 ![](pipeline.png)
 
