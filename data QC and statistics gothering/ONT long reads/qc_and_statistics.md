@@ -47,4 +47,5 @@ NanoPlot --raw -o $OUTDIR -f png,tiff --fastq $READS
 ```
 
 Example of output plots:
-
+![](image1.png)
+![](image2.png)
