@@ -20,3 +20,9 @@ Scripts used in mosquitoes genome assembly and validation processes.
 [Flye assembly](/draft_assembly/flye.md)
 
 [CANU assembly](/draft_assembly/canu.md)
+### Assembly polishing
+
+[Nanopolish polishing with ONT raw signal](/polishing/nanopolish.md)
+
+[Pilon polishing with Illumina data](/draft_assembly/canu.md)
+
