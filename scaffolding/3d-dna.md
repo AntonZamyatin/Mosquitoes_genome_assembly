@@ -1,4 +1,4 @@
-###run Juicer
+### run Juicer
 ```
 
 module load bwa 
